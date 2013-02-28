@@ -16,6 +16,8 @@
 		287AB62516DF93DE001F9C7A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 287AB62416DF93DE001F9C7A /* Default.png */; };
 		287AB62716DF93DE001F9C7A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 287AB62616DF93DE001F9C7A /* Default@2x.png */; };
 		287AB62916DF93DE001F9C7A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 287AB62816DF93DE001F9C7A /* Default-568h@2x.png */; };
+		28FBA33616DF947F00E23290 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 28FBA33516DF947F00E23290 /* Podfile */; };
+		28FBA33816DF94C400E23290 /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 28FBA33716DF94C400E23290 /* readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		287AB62416DF93DE001F9C7A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		287AB62616DF93DE001F9C7A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		287AB62816DF93DE001F9C7A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		28FBA33516DF947F00E23290 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		28FBA33716DF94C400E23290 /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 		287AB61816DF93DE001F9C7A /* BLPodfile */ = {
 			isa = PBXGroup;
 			children = (
+				28FBA33516DF947F00E23290 /* Podfile */,
+				28FBA33716DF94C400E23290 /* readme.md */,
 				287AB62116DF93DE001F9C7A /* AppDelegate.h */,
 				287AB62216DF93DE001F9C7A /* AppDelegate.m */,
 				287AB61916DF93DE001F9C7A /* Supporting Files */,
@@ -154,6 +160,8 @@
 				287AB62516DF93DE001F9C7A /* Default.png in Resources */,
 				287AB62716DF93DE001F9C7A /* Default@2x.png in Resources */,
 				287AB62916DF93DE001F9C7A /* Default-568h@2x.png in Resources */,
+				28FBA33616DF947F00E23290 /* Podfile in Resources */,
+				28FBA33816DF94C400E23290 /* readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +288,7 @@
 				287AB62E16DF93DE001F9C7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
